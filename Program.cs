@@ -1,6 +1,7 @@
 ﻿using System;
 using FinanceManagement;
 using HealthcareSystem;
+using WarehouseInventoryManagementSystem;
 
 namespace FinanceManagement
 {
@@ -11,10 +12,9 @@ namespace FinanceManagement
             // Question 1
             Console.WriteLine("Question 1");
             Console.WriteLine("Welcome to the Finance Management System!");
-            var app = new Account.FinanceApp(); // create a variable called 'app'
-            app.Run(); 
+            var app = new Account.FinanceApp();
+            app.Run();
 
-            
             // Question 2
             Console.WriteLine("Question 2");
             Console.WriteLine("Welcome to the Healthcare System!");
@@ -40,7 +40,27 @@ namespace FinanceManagement
             {
                 Console.WriteLine("Invalid Patient ID.");
             }
+
+            // Question 3
+            Console.WriteLine("Question 3");
+            var manager1 = new WareHouseManager();
+            manager1.seedData();
+
+            Console.WriteLine("\n--- All Items ---");
+            manager1.PrintAllItems();
+
+            Console.WriteLine("\n--- Testing Exceptions ---");
+            try
+            {
+                manager1.ElectronicInventory.AddItem(new ElectronicItem(1, "Tablet", 5, "Apple", 12));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+            manager1.RemoveItem(manager1.GroceryInventory, 99);
+            manager1.IncreaseStock(manager1.ElectronicInventory, 2, -50);
         }
     }
 }
-    
