@@ -1,0 +1,15 @@
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/bin/Debug/net9.0/dcit318-assignment3-11076489
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/bin/Debug/net9.0/dcit318-assignment3-11076489.deps.json
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/bin/Debug/net9.0/dcit318-assignment3-11076489.runtimeconfig.json
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/bin/Debug/net9.0/dcit318-assignment3-11076489.dll
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/bin/Debug/net9.0/dcit318-assignment3-11076489.pdb
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/dcit318-assignment3-11076489.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/dcit318-assignment3-11076489.AssemblyInfoInputs.cache
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/dcit318-assignment3-11076489.AssemblyInfo.cs
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/dcit318-assignment3-11076489.csproj.CoreCompileInputs.cache
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/dcit318-assignment3-11076489.sourcelink.json
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/dcit318-assignment3-11076489.dll
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/refint/dcit318-assignment3-11076489.dll
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/dcit318-assignment3-11076489.pdb
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/dcit318-assignment3-11076489.genruntimeconfig.cache
+/Users/michael/Documents/Assignments/DCIT 318/dcit318-assignment3-11076489/obj/Debug/net9.0/ref/dcit318-assignment3-11076489.dll
