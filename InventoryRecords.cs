@@ -5,16 +5,16 @@ using System.Text.Json;
 
 namespace InventorySystem
 {
-    // b) Marker interface
+    // Marker interface
     public interface IInventoryEntity
     {
         int Id { get; }
     }
 
-    // a) Immutable record implementing the interface
+    // Immutable record implementing the interface
     public record InventoryItem(int Id, string Name, int Quantity, DateTime DateAdded) : IInventoryEntity;
 
-    // c) Generic inventory logger
+    // Generic inventory logger
     public class InventoryLogger<T> where T : IInventoryEntity
     {
         private List<T> _log = new();
@@ -68,7 +68,7 @@ namespace InventorySystem
         }
     }
 
-    // f) InventoryApp integration
+    // InventoryApp integration
     public class InventoryApp
     {
         private readonly InventoryLogger<InventoryItem> _logger;
@@ -81,10 +81,10 @@ namespace InventorySystem
         public void SeedSampleData()
         {
             _logger.Add(new InventoryItem(1, "Laptop", 5, DateTime.Now));
-            _logger.Add(new InventoryItem(2, "Mouse", 15, DateTime.Now));
-            _logger.Add(new InventoryItem(3, "Keyboard", 10, DateTime.Now));
+            _logger.Add(new InventoryItem(2, "Game Console", 15, DateTime.Now));
+            _logger.Add(new InventoryItem(3, "Desktop", 10, DateTime.Now));
             _logger.Add(new InventoryItem(4, "Monitor", 7, DateTime.Now));
-            _logger.Add(new InventoryItem(5, "USB Cable", 50, DateTime.Now));
+            _logger.Add(new InventoryItem(5, "Pojector", 50, DateTime.Now));
         }
 
         public void SaveData() => _logger.SaveToFile();

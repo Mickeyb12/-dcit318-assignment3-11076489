@@ -28,7 +28,7 @@ namespace MainApplication
             Console.WriteLine("\nQuestion 2");
             Console.WriteLine("Welcome to the Healthcare System!");
             var healthcareApp = new HealthcareApp();
-            healthcareApp.SeedData();
+            healthcareApp.seedData();
             healthcareApp.BuildPrescriptions();
             healthcareApp.PrintAllPatients();
 
@@ -57,7 +57,7 @@ namespace MainApplication
             Console.WriteLine("\nQuestion 3");
             Console.WriteLine("Welcome to the Warehouse Inventory Management System!");
             var manager1 = new WareHouseManager();
-            manager1.SeedData();
+            manager1.seedData();
 
             Console.WriteLine("\n--- All Items ---");
             manager1.PrintAllItems();
@@ -103,7 +103,7 @@ namespace MainApplication
             {
                 Console.WriteLine($"Format error: {ex.Message}");
             }
-            catch (MissingFieldException ex)
+            catch (System.MissingFieldException ex)
             {
                 Console.WriteLine($"Missing field error: {ex.Message}");
             }
